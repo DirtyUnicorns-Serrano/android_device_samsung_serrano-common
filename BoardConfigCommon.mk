@@ -59,7 +59,14 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/serrano-common/blu
 
 # Audio
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
-USE_CUSTOM_AUDIO_POLICY := 1
+#USE_CUSTOM_AUDIO_POLICY := 1
+
+# Build optimizations
+CLANG_O3 := true
+# STRICT_ALIASING := true
+# KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
+ENABLE_GCCONLY := true
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true

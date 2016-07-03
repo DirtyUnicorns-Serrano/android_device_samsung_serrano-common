@@ -127,8 +127,8 @@ PRODUCT_PACKAGES += \
     libril_shim
 
 # Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+#PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Camera
 PRODUCT_PACKAGES += \
